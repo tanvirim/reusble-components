@@ -1,0 +1,75 @@
+
+.idContainer{
+    width: 20px !important;
+}
+
+.actionContainer{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 450px;
+}
+
+
+.action{
+    /* width: fit-content; */
+    background: #e6f8ef;
+    color:  #00b95d;
+    padding: 0.25rem 0.85rem;
+    font-size: 12px;
+    line-height: 1.6;
+    letter-spacing: 0.52px;
+    overflow: hidden;
+    border-radius: 6px;
+    border: 1px solid #80dcae;
+    -webkit-box-orient: vertical;
+    transition: all 0.3s ease;
+    display: -webkit-box;
+    text-decoration: none;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.deadlineExplained{
+    width: 175px !important;
+    padding: 6px 12px !important;
+}
+
+.extend{
+    width: 230px !important;
+}
+
+.extendReview{
+    width: 120px !important;
+}
+
+
+.authorize{
+    padding: 6px 12px !important;
+    width: 185px !important;
+    color: #e6f8ef !important;
+    background-color: #1492d2 !important;
+    border-color: #1492d2 !important;
+    font: Inter;
+}
+
+
+.resolved{
+    border-color: #1492d2 ;
+    color: #1492d2 ;
+    padding: 6px 12px !important;
+    cursor: not-allowed !important;
+}
+
+.action.extend:hover{
+    background: #00af58 !important;
+    border-color: #00af58 !important;
+}
+.action.extendReview:hover{
+    background: #00af58 !important;
+    border-color: #00af58 !important;
+}
+
+
